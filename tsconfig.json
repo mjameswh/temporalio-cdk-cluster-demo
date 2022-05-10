@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "rootDir": "./lib",
+        "noEmit": true,
+        "allowJs": false,
+        "target": "ES2020",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+    "include": ["./lib/**/*.ts"],
+    "exclude": ["**/node_modules"]
+}
